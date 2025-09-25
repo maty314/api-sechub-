@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-sechub-main
+  labels:
+    {{- include "api-sechub.labels" . | nindent 4 }}
+data:
+  main.py: |-
+{{ .Files.Get "files/main.py" | indent 4 }}
