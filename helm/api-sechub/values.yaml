@@ -88,5 +88,5 @@ envVars:
   productName: 
 
 mainPyConfig:
-  enabled: false
+  enabled: true
   
