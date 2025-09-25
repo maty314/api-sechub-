@@ -86,3 +86,7 @@ envVars:
   sechubToken: 
   product: 
   productName: 
+
+mainPyConfig:
+  enabled: false
+  
